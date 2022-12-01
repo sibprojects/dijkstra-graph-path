@@ -1,3 +1,3 @@
 # dijkstra-graph-path
 
-Class for calculation shortes path in graph by algorithm "Dijkctra".
+Class for calculation shortest path in graph based on algorithm "Dijkstra".

@@ -6,8 +6,8 @@ class GraphPathCalcBasedOnWorkflow
 {
     public function getPath(string $fromState, string $toState, StateMachine $workflow): array
     {
-				return $this->shortestPath = $this->getShortestPath($fromState, $toState, $workflow);
-		}
+        return $this->shortestPath = $this->getShortestPath($fromState, $toState, $workflow);
+    }
 
     private function getWorkflowRoutes($workflow): array
     {
